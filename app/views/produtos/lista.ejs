@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <table>
+            <tr>
+                <td>id</td>
+                <td>titulo</td>
+                <td>descrição</td>
+                <td>preco</td>
+            </tr>
+            <tr>
+                <%for(var i=0;i<lista.length;i++){%>
+                    <tr>
+                        <td><%=lista[i].id%></td>
+                        <td><%=lista[i].titulo%></td>
+                        <td><%=lista[i].descricao%></td>
+                        <td><%=lista[i].preco%></td>
+                    </tr>
+                <%}%>
+            </tr>
+        </table>
+    </body>
+</html>
+<script type="text/javascript">
+    console.log("precoce");
+</script>
